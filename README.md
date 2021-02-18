@@ -16,5 +16,6 @@ Although I used maven and a couple open-source libraries to facilitate developme
 This is by far the least elegant part of my project as I tried to use Maven for the first time and had many problems
 * Clone URI and import into eclipse using git smart import. 
 * maven clean install
+* need to Delete all records from DB before running as the DB in the repo is full
 * run as a java project, not a maven build (still need to maven clean install to get libraries) 
 * need to send DELETE FROM purchases; to purchases.db in order to re-run or all of the records will be rejected. I used a DBMS to do this but you could also send it in the code. 
